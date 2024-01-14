@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  좌석 예약 확인 후 확정 화면 + 이전 버튼  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#0000FF">
+
+        <Button
+            android:id="@+id/BtnReturnToTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="이전" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="좌석 예약 확정 선택"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <!-- 강의실 좌석 확정 안내 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="선택한 강의실의 예약 정보입니다\n 맞으면 예약 확정하기를 누른 후\n 완료를 눌러주세요."
+        android:textColor="#0000FF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <!--  예약한 일시  -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="선택한 일시: " />
+
+        <TextView
+            android:id="@+id/tvYear3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="0000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="년" />
+
+        <TextView
+            android:id="@+id/tvMonth3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="월" />
+
+        <TextView
+            android:id="@+id/tvDay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="일" />
+
+        <TextView
+            android:id="@+id/tvHour3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="시" />
+
+        <TextView
+            android:id="@+id/tvMinute3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="분" />
+    </LinearLayout>
+
+    <!--  예약한 자리  -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="선택한 자리: " />
+        <TextView
+            android:id="@+id/Seat2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <!--  예약확정하기  -->
+        <Button
+            android:id="@+id/BtnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예약 확정하기" />
+
+        <!--  다음 화면  -->
+        <Button
+            android:id="@+id/BtnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="완료" />
+
+    </LinearLayout>
+
+</LinearLayout>

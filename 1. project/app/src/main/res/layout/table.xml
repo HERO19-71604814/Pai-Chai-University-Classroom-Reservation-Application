@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--  강의실 좌석 선택 예약 화면 + 이전 버튼  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#0000FF">
+        <Button
+            android:id="@+id/BtnReturn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="이전" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="강의실 좌석 예약"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <!-- 강의실 좌석 예약 안내 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="원하는 좌석을 선택 후 \n 다음 단계 버튼을 눌러주세요."
+        android:textColor="#0000FF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <!--  강의실 좌석 선택  -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TableRow>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum0"
+                android:text="1"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum1"
+                android:text="2"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum2"
+                android:text="3"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum3"
+                android:text="4"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum4"
+                android:text="5"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum5"
+                android:text="6"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum6"
+                android:text="7"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum7"
+                android:text="8"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum8"
+                android:text="9"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum9"
+                android:text="10"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum10"
+                android:text="11"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum11"
+                android:text="12"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum12"
+                android:text="13"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum13"
+                android:text="14"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum14"
+                android:text="15"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum15"
+                android:text="16"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum16"
+                android:text="17"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum17"
+                android:text="18"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum18"
+                android:text="19"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum19"
+                android:text="20"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum20"
+                android:text="21"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum21"
+                android:text="22"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum22"
+                android:text="23"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum23"
+                android:text="24"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum24"
+                android:text="25"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum25"
+                android:text="26"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum26"
+                android:text="27"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum27"
+                android:text="28"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum28"
+                android:text="29"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum29"
+                android:text="30"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum30"
+                android:text="31"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum31"
+                android:text="32"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum32"
+                android:text="33"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum33"
+                android:text="34"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum34"
+                android:text="35"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum35"
+                android:text="36"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum36"
+                android:text="37"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum37"
+                android:text="38"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum38"
+                android:text="39"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/BtnNum39"
+                android:text="40"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <!--  선택한 일시   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0000FF"
+                android:textStyle="bold"
+                android:text="선택한 일시: " />
+
+            <TextView
+                android:id="@+id/tvYear2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000FF"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="0000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="년" />
+
+            <TextView
+                android:id="@+id/tvMonth2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="월" />
+
+            <TextView
+                android:id="@+id/tvDay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="일" />
+
+            <TextView
+                android:id="@+id/tvHour2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="시" />
+
+            <TextView
+                android:id="@+id/tvMinute2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="분" />
+
+        </LinearLayout>
+
+        <!--    선택한 자리    -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0000FF"
+                android:textStyle="bold"
+                android:text="선택한 자리: " />
+            <TextView
+                android:id="@+id/Seat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:text="" />
+
+        </LinearLayout>
+
+    <!--   다음 단계    -->
+        <Button
+            android:id="@+id/BtnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="다음 단계" />
+    </LinearLayout>
+
+
+</LinearLayout>

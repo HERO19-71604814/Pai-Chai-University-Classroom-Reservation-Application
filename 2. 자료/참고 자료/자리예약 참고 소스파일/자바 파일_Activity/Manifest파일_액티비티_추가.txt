@@ -1,0 +1,4 @@
+<activity android:name=".DaytimeActivity" android:label="second DayTimePicker"/>
+        <activity android:name=".TableActivity" android:label="Third Table pick"/>
+        <activity android:name=".ConfirmActivity" android:label="Fourth Confirm"/>
+        <activity android:name=".EndActivity" android:label="Last End"/>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#F6BB43"
+        android:gravity="center"
+        android:text="반갑습니다!레스토랑입니다."
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="예약을 위해 아래 이미지를 눌러주세요"
+        android:textColor="#F6BB43"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/ImageStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/restaurant" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*이미지를 눌러 예약을 시작하세요."
+        android:textSize="12dp"
+        android:gravity="center"/>
+
+</LinearLayout>
