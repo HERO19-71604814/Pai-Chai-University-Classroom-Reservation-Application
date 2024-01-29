@@ -1,4 +1,4 @@
-# 📘 프로젝트:  [배재대학교 강의실 예약 시스템](https://play.google.com/store/apps/details?id=com.pcu.paichaiuniversityclassroomreservationapplication)
+# 📘 프로젝트: [배재대학교 강의실 예약 앱](https://play.google.com/store/apps/details?id=com.pcu.paichaiuniversityclassroomreservationapplication)
 <div align="center">
   <img src="2. project 문서/- 참고 자료/강의실 예약 사용 이미지/ic.jpg">
 </div>
@@ -180,6 +180,7 @@
             <th>배포</th>
             <th>
             <img src="https://img.shields.io/badge/google play-414141?style=for-the-badge&logo=googleplay&logoColor=white">
+            <img src="https://img.shields.io/badge/google play Console-1677FF?style=for-the-badge&logo=googleplayconsole&logoColor=white">
             </th>
         </tr>
         <tr>
