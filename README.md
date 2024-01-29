@@ -5,26 +5,219 @@
 </br>
 </br>
 
-# 프로젝트 개발 팀: 내가 먼저다
-> 팀 소개
+<!-- # 목차 # -->
+# 📖 목차
+<!-- 1. 프로젝트 소개 -->
+[📑 프로젝트 소개](#-프로젝트-소개)
+- [❔ 개발 배경](#-개발-배경)
+- [❕ 개발 목적](#-개발-목적)
+- [📈 개발 기간](#-개발-기간)
 
-|이름|학번|학년|담당|
-|---|---|---|---|
-|이명우|1761036|3|팀장|
-|이영웅|1761040|3|팀원|
-|이경재|1661036|4|팀원|
-|김상식|1661006|3|팀원|
-|김완섭|1561012|4|팀원|
-|이충용|1761050|3|팀원|
-</br>
+<!-- 2. 프로젝트 개발 팀 -->
+[👨‍💻 프로젝트 개발 팀](#-프로젝트-개발-팀)
 
+<!-- 3. 기술 스택(사용한 기술) -->
+[🛠 기술 스택](#-기술-스택)
 
-# 프로젝트 소개
-> 개발 배경 
-- 강의실을 빌리는 과정은 몇분의 교수님께 연락을 드리고 조교님께도 말씀을 드리며 허락을 구하는 방식, 여러 사람들에게 번거로움을 드리는 이런 방식이 효율적이지 못하다고 생각하게 되었습니다.
-- 과제선정 도중 강의실을 미리 예약해서 빈 강의실 사용을 좀 더 용이하게 할 수 있도록 하는 애플리케이션을 캡스톤 기간중에 구현해보는 것이 어떠냐는 의견이 나왔습니다.
-- 효율적이지못한 예약방식과 학생들이 자신들이 원하는 시간에 바라는 빈 강의실을 확인하고 그 강의실을 예약하여 활용 할 수 있도록 하는 애플리케이션을 목표로 강의실예약시스템을 주제로 개발하게 되었습니다.
+<!-- 4. 프로젝트 시작 방법 -->
+[🏁 프로젝트 시작 방법](#-프로젝트-시작-방법)
 
-> 개발 목적
-- 학교 건물내에 있는 수맣은 강의실 중 수업시간을 제외하고는 소수의 강의실만이 사용되고 있었고 사용되지않는 강의실이 있으면 그강의실을 이용할 수 있게 하는 것 입니다.
-- 학생들끼리의 모임에는 카페나 컴퓨터가 필요한 경우에는 피시방이 이용하는 경우가 많이 있었습니다. 학교내에 컴퓨터까지 비치되어진 훌륭한 공간들인 강의실이 사용되어지지 못하는 것을 방지하기 위함입니다.
+<!-- 5. 화면 구성(화면 정의서) -->
+[💻 화면 구성](#-화면-구성)
+
+<!-- 6. 주요 기능 -->
+[⚙ 주요 기능](#-주요-기능)
+
+<!-- 7. 배포 주소 -->
+[🌠 배포 주소](#-배포-주소)
+
+<!-- 8. 개선 사항 -->
+[🔨개선 사항🔧](#-개선-사항-)
+
+<!-- 1. 프로젝트 소개 -->
+# 📑 프로젝트 소개
+
+<h3 align="center">📱 캡스톤 디자인 1 팀 프로젝트: 배재대학교 강의실 예약 앱 제작 📱</h3>
+<br>
+
+> ### ❔ 개발 배경 
+- 강의실을 빌리는 과정의 번거로움 해소
+- 카페나 PC방을 회의 장소로 사용시 비용소비 및 회의 진행에 제한되는 상황 최소화
+- 사용하지 않는 빈 강의실 및 PC가있는 빈 강의실에 대한 사용율 상승   
+<br>
+
+> ### ❕ 개발 목적
+- 스마트폰을 통한 사용되지 않는 강의실 정보 제공
+- 원하는 시간에 원하는 강의실을 편하게 예약 및 탐색
+- 외부 시설이 아닌 학교내의 시설이용으로 인한 비용 소비 절감
+<br>
+
+> ### 📈 개발 기간
+<div align="center">
+<table style="text-align:center">
+    <thead>
+        <tr>
+            <th colspan=2 style="text-align:center">2022년 09월 ~ 2022년 12월(총 4개월)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>2022년 9월</th>
+            <td>
+                - 주제 선정 <br>
+                - 자료 조사 <br>
+                - 보고서 및 계획서 작성 
+            </td>
+        </tr>
+        <tr>
+            <th>2022년 10월</th>
+            <td>
+                - 코드 구현
+            </td>
+        </tr>
+        <tr>
+            <th>2022년 11월</th>
+            <td>
+                - 추가 기능 구현 <br>
+                - 중간 테스트(오류 수정)
+            </td>
+        </tr>
+        <tr>
+            <th>2022년 12월</th>
+            <td>
+                - 미완성 기능 구현 및 테스트 <br>
+                - 구글 플레이 스토어에 배포 <br>
+                - 발표
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<br>
+
+<!-- 2. 프로젝트 개발 팀 -->
+# 👨‍💻 프로젝트 개발 팀
+<div align="center">
+<table style="text-align : center;">
+    <tbody>
+        <tr>
+            <th>이명우</th>
+            <th>PM</th>
+            <td> 
+                - 각종 보고서작성
+            </td>
+        </tr>
+        <tr>
+            <th>이영웅</th>
+            <th>PA</th>
+            <td>
+                - 전체 코드 작업과 오류 체크, 테스트 <br>
+                - 파이어베이스를 이용한 데이터 베이스 연동 <br>
+                - 구글 플레이 스토어 배포
+            </td>
+        </tr>
+        <tr>
+            <th>이경재</th>
+            <th>PA</th>
+            <td>
+                - 강의실사용종료후 정보 자동수정
+            </td>
+        </tr>
+        <tr>
+            <th>김상식</th>
+            <th>PA</th>
+            <td>
+                - 회원가입 및 로그인후 예약날짜창으로 이동
+            </td>
+        </tr>
+        <tr>
+            <th>김완섭</th>
+            <th>PA</th>
+            <td>     
+                - 빈 강의실의 예약과 취소
+            </td>
+        </tr>
+        <tr>
+            <th>이충용</th>
+            <th>PA</th>
+            <td>     
+                - 앱 전체 디자인
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<br>
+
+<!-- 3. 기술 스택(사용한 기술) -->
+# 🛠 기술 스택
+<!--
+  - 기술스택 배지로 깃허브 프로필, README.md 예쁘게 꾸미기
+  > 사용법
+    - 기본 구조
+      <img src="https://img.shields.io/badge/표시할이름-색상?style=for-the-badge&logo=기술스택아이콘&logoColor=white">
+
+  참고: https://cocoon1787.tistory.com/689 
+-->
+<div align="center">
+<table style="text-align : center;">
+    <tbody>
+        <tr>
+            <th width="20%">코드 작업</th>
+            <th>
+            <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
+            <img src="https://img.shields.io/badge/android studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white">
+            <img src="https://img.shields.io/badge/android-34A853?style=for-the-badge&logo=android&logoColor=white">
+            </th>
+        </tr>
+        <tr>
+            <th>데이터 베이스</th>
+            <th>
+            <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white"> 
+            </th>
+        </tr>
+        <tr>
+            <th>배포</th>
+            <th>
+            <img src="https://img.shields.io/badge/google play-414141?style=for-the-badge&logo=googleplay&logoColor=white">
+            </th>
+        </tr>
+        <tr>
+            <th>깃허브</th>
+            <th>
+            <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> 
+            <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> 
+            <img src="https://img.shields.io/badge/sourcetree-0052CC?style=for-the-badge&logo=sourcetree&logoColor=white">
+            </th>
+        </tr>
+    </tbody>
+</table>
+</div>
+<br>
+
+<!-- 4. 프로젝트 시작 방법 -->
+# 🏁 프로젝트 시작 방법
+<div align="center">
+<table style="text-align : center;">
+    <tbody>
+        <tr>
+            <th>필요한 설치 파일</th>
+            <td>
+                코드 작업: Android 스튜디오(최신 버전)<br>
+            </td>
+        </tr>
+        <tr>
+            <th>구글 플레이 스토어 배포</th>
+            <td>Amazon Web Services: https://aws.amazon.com/ko</td>
+        </tr>
+        <tr>
+            <th>코드 파일</th>
+            <td>
+
+안드로이드 스튜디오 코드 파일: [코드 파일](https://github.com/HERO19-71604814/Festival-website-project/tree/aa33cabe11e2c78e344a61fb517d9ee2ea2d38d6/1.%20project%20file/Back/festival)<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<br>
