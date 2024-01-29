@@ -23,10 +23,12 @@
 [🏁 프로젝트 시작 방법](#-프로젝트-시작-방법)
 
 <!-- 5. 화면 구성(화면 정의서) -->
-[💻 화면 구성](#-화면-구성)
+[📲 화면 구성](#-화면-구성)
 
 <!-- 6. 주요 기능 -->
 [⚙ 주요 기능](#-주요-기능)
+- [🔐 로그인/회원가입](#-로그인회원가입)
+- [🏢 강의실 예약](#-강의실-예약)
 
 <!-- 7. 배포 주소 -->
 [🌠 배포 주소](#-배포-주소)
@@ -208,6 +210,12 @@
             </td>
         </tr>
         <tr>
+            <th>데이터베이스</th>
+            <td>
+                Firebase: https://firebase.google.com/?hl=ko<br>
+            </td>
+        </tr>
+        <tr>
             <th>구글 플레이 스토어 배포</th>
             <td>Google Play Console: https://play.google.com/intl/ko/console/about/</td>
         </tr>
@@ -226,27 +234,61 @@
 <!-- 5. 화면 구성(화면 정의서) -->
 # 📲 화면 구성
 <div align="center">
-
-<table>
-	<th style="text-align:center">🏠 메인 페이지</th>
-	<tr>
-	    <td></td>
-	</tr>
+<table style="text-align:center">
+    <thead>
+        <tr>
+            <th colspan=2 style="text-align:center">🔐 로그인/회원가입 페이지</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width="25%">로그인 페이지</td>
+            <td><img src="2. project 문서/- image/로그인.png"></td>
+        </tr>
+        <tr>
+            <td>회원가입 페이지</td>
+            <td><img src="2. project 문서/- image/회원가입.png"></td>
+        </tr>
+    </tbody>
 </table>
 <br>
 
+<table style="text-align:center">
+    <thead>
+        <tr>
+            <th colspan=2 style="text-align:center">🏢 강의실 예약 페이지</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width="25%">1. 강의실 예약(날짜입력)</td>
+            <td><img src="2. project 문서/- image/예약(날짜입력).png"></td>
+        </tr>
+        <tr>
+            <td>2. 강의실 예약(시간입력)</td>
+            <td><img src="2. project 문서/- image/예약(시간입력).png"></td>
+        </tr>
+        <tr>
+            <td width="25%">3. 강의실 예약(자리선택)</td>
+            <td><img src="2. project 문서/- image/예약(자리선택).png"></td>
+        </tr>
+        <tr>
+            <td>4. 강의실 예약(정보확인 후 메인페이지로)</td>
+            <td><img src="2. project 문서/- image/예약(정보확인 후 메인페이지로).png"></td>
+        </tr>
+    </tbody>
+</table>
 </div>
 <br>
 
 <!-- 6. 주요 기능 -->
 # ⚙ 주요 기능
-### 
+### 🔐 로그인/회원가입
+- 파이어베이스에 회원정보와 ID와 PASSWORD저장하는 회원가입 기능
+- 파이어베이스에 저장된 회원정보중 ID와 PASSWORD정보가 일치할 시 로그인되는 기능
 
-### 
-
-### 
-
-### 
+### 🏢 강의실 예약
+- 로그인시 회원에게 강의실 정보를 제공 후 예약을 받는 예약 기능 
 
 <br>
 
