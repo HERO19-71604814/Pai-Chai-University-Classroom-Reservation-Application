@@ -222,3 +222,48 @@
 </table>
 </div>
 <br>
+
+<!-- 5. 화면 구성(화면 정의서) -->
+# 📲 화면 구성
+<div align="center">
+
+<table>
+	<th style="text-align:center">🏠 메인 페이지</th>
+	<tr>
+	    <td></td>
+	</tr>
+</table>
+<br>
+
+</div>
+<br>
+
+<!-- 6. 주요 기능 -->
+# ⚙ 주요 기능
+### 
+
+### 
+
+### 
+
+### 
+
+<br>
+
+<!-- 7. 배포 주소 -->
+# 🌠 배포 주소 
+<div align="center">
+
+### 주소: https://play.google.com/store/apps/details?id=com.pcu.paichaiuniversityclassroomreservationapplication
+
+</div>
+<br>
+
+<!-- 8. 개선 사항(필요 없을 시 주석처리) -->
+# 🔨 개선 사항 🔧
+- 디자인 개편
+- 회원가입 통합(이메일, 아이디 등록 후 개인정보 등록하는 순서 개선)
+- 강의실 예약정보를 파이어베이스에 등록된 계정에 연동시켜 저장하기
+- 예약정보를 확실하고 편리하게 볼수있게 시각화 하기
+- 게시판 기능 추가
+- 업데이트 해보기(파일 수정 후에)  
