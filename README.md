@@ -208,13 +208,13 @@
         </tr>
         <tr>
             <th>구글 플레이 스토어 배포</th>
-            <td>Amazon Web Services: https://aws.amazon.com/ko</td>
+            <td>Google Play Console: https://play.google.com/intl/ko/console/about/</td>
         </tr>
         <tr>
             <th>코드 파일</th>
             <td>
 
-안드로이드 스튜디오 코드 파일: [코드 파일](https://github.com/HERO19-71604814/Festival-website-project/tree/aa33cabe11e2c78e344a61fb517d9ee2ea2d38d6/1.%20project%20file/Back/festival)<br>
+안드로이드 스튜디오 코드 파일: [코드 파일](https://github.com/HERO19-71604814/Pai-Chai-University-Classroom-Reservation-Application/tree/58d1f71eaf202e65824d37025b24dd34d759c28c/1.%20project%20file)<br>
             </td>
         </tr>
     </tbody>
