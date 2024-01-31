@@ -226,6 +226,12 @@
 안드로이드 스튜디오 코드 파일: [코드 파일](https://github.com/HERO19-71604814/Pai-Chai-University-Classroom-Reservation-Application/tree/58d1f71eaf202e65824d37025b24dd34d759c28c/1.%20project%20file)<br>
             </td>
         </tr>
+        <tr>
+            <th>문서</th>
+            <td>
+보고서: [캡스톤디자인 최종결과보고서](https://github.com/HERO19-71604814/Pai-Chai-University-Classroom-Reservation-Application/blob/81d61c32cf93866907f59a79b7de125b234bc651/2.%20project%20%EB%AC%B8%EC%84%9C/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8%20%EC%B5%9C%EC%A2%85%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C(%ED%8C%80%EB%AA%85-%EB%82%B4%EA%B0%80%EB%A8%BC%EC%A0%80%EB%8B%A4).hwp) 
+            </td>
+        </tr>
     </tbody>
 </table>
 </div>
@@ -303,9 +309,10 @@
 
 <!-- 8. 개선 사항(필요 없을 시 주석처리) -->
 # 🔨 개선 사항 🔧
-- 디자인 개편
-- 회원가입 통합(이메일, 아이디 등록 후 개인정보 등록하는 순서 개선)
-- 강의실 예약정보를 파이어베이스에 등록된 계정에 연동시켜 저장하기
-- 예약정보를 확실하고 편리하게 볼수있게 시각화 하기
-- 게시판 기능 추가
-- 업데이트 해보기(파일 수정 후에)  
+- 🔖 해야 할 작업 목록
+    - 디자인 개편
+    - 회원가입 통합(이메일, 아이디 등록 후 개인정보 등록하는 순서 개선)
+    - 강의실 예약정보를 파이어베이스에 등록된 계정에 연동시켜 저장하기
+    - 예약정보를 확실하고 편리하게 볼수있게 시각화 하기
+    - 게시판 기능 추가
+    - 업데이트 해보기(파일 수정 후에)  
